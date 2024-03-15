@@ -130,7 +130,7 @@ def main():
             
 def login():
     user = "root"
-    passwd = "admin"
+    passwd = ""
     username = input(" ! Username: ")
     password = getpass.getpass(prompt=' ! Password: ')
     if username != user or password != passwd:
