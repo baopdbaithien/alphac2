@@ -129,7 +129,7 @@ def main():
                 pass
             
 def login():
-    user = "root"
+    user = "admin"
     passwd = ""
     username = input(" ! Username: ")
     password = getpass.getpass(prompt=' ! Password: ')
